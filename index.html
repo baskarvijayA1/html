@@ -1,70 +1,50 @@
-<figure>
-   <img src="Linux_logo.jpg"
-    alt="Tux is a penguin character and the official brand character of the linux Kernel."
-    width="100"
-    height"100"
-<figcaption>Linux_logo.jpg - Tux</figcaption>
-</figure>
-
-
-video and audio on the weg:
-<video src="rabbit.webm" controls>
-  </video>
-
-<video controls>
-    <source src="rabbir.mp3" type="video/mp3">
-    <source src="rabbit.webm"  type="video/webm">
-<p>your browser doesn't support HTML5 video. here is a <a href="rabbit.mp3">link to the video</a> instead.</p>
-</video>
-
-
-<video controls width="400" height="400"
-     
-       loop muted preload ="none"   
-     poster = "rabbit.webm"
-    <source src="rabbir.mp3" type="video/mp3">
-<source src="rabbit.webm" type = "video/webm">
-<p>your browser doesn't support HTML5 video. here is a <a href="rabbit.mp3">link to the video</a> instead.</p>
-</video>
-
-
-<audio controls>
-   <source src="rabbit.mp4" type ="audio/mp3">
- <source src="rabbit.webm" type = "audio/webm">
-<p>your browser doesn't support HTML5 video. here is a <a href="rabbit.mp3">link to the video</a> instead.</p>
-
-
-
-Emedding Technologies:
-iframe - Inline frame
-
-<iframe src="https://en.wikipedia.org/wiki/HTML_element#Frames"
-            frameboarder="0"
-            marginheight="50"
-            marginwidth="50"
-            width="50%"
-            height="60%"
-            scrolling="auto">
-</iframe>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31100.014332286864!2d80.22096644999999!3d13.003685749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0605297cdd52a98!2z4K6q4K6v4K6_4K6y4K6V4K6u4K-N!5e0!3m2!1sta!2sin!4v1654616701684!5m2!1sta!2sin" width="100%" height="100%" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g4VubmbY5So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Iframe with basic details</title>
-  </head>
-  <body>
-    <h1>Iframe with basic details</h1>
-
-    <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" width="100%" height="500" frameborder="0" allowfullscreen sandbox>
-      <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary"> Fallback link for browsers that don't support iframes </a> </p>
-    </iframe>
-  </body>
+<Doctype HTML>
+  <html>
+       <head>
+           <meta charset="utf-8">
+           <title>vector versus raster</title>
+</head>
+<body>
+  <h1>vector versus raster</h1>
+  <img src="star.png">
+  <img src="star.svg">
+</body>
 </html>
+
+<svg width="100 height="100">
+     <circle cx="50" cy="50" r="40" stroke="blue" stroke width="8" fill="green"/>
+</svg>
+
+
+<svg width="100"height="100">
+ <rect width="400" height="100"
+ style="fill:rgb(0,0,255); stroke-width:10; stroke:rgb(123,0,0)"/>
+</svg>
+
+
+<svg width="400" height="100">
+  <rect x="120" y="120" width="60" height="60" rx="30" ry="15"/>
+  <rect x="220" y="120" width="60" height="60" rx="150" ry="150"/>
+    <rect x="320" y="120" width="60" height="60" rx="150" ry="150"/>
+</svg>
+
+
+<svg width="100" height="100">
+   <polygon points="100,10 40,198 190,78 10,78 160,198"
+   style="fill:lime;stroke:purple;stroke-width:5 fill rule:evenhood;"/>
+</svg>
+
+
+HTML BLOCK AND INLINE ELEMENTS:
+
+  <p>i am a block element and will start in new line</p>
+
+Inline Elements:
+ i am an inline elements <span> and will not start in new line</span>
+ <p>i like <span style="clor:red">red</span>color</p>
+
+hi how are<span style="color:red">you</span>
+
+
+  
+
